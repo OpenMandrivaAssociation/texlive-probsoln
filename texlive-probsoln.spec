@@ -1,3 +1,9 @@
+# revision 23668
+# category Package
+# catalog-ctan /macros/latex/contrib/probsoln
+# catalog-date 2011-08-23 00:10:45 +0200
+# catalog-license lppl
+# catalog-version 3.01
 Name:		texlive-probsoln
 Version:	3.01
 Release:	1
