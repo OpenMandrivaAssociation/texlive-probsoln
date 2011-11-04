@@ -76,6 +76,7 @@ of the same document as the problems they cover.
 #- source
 %doc %{_texmfdistdir}/source/latex/probsoln/probsoln.dtx
 %doc %{_texmfdistdir}/source/latex/probsoln/probsoln.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -86,3 +87,5 @@ of the same document as the problems they cover.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
