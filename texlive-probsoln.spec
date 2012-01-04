@@ -6,7 +6,7 @@
 # catalog-version 3.01
 Name:		texlive-probsoln
 Version:	3.01
-Release:	1
+Release:	2
 Summary:	generate problem sheets and their solution sheets
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/probsoln
