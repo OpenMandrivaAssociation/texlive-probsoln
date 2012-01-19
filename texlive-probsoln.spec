@@ -1,13 +1,13 @@
-# revision 23668
+# revision 25106
 # category Package
 # catalog-ctan /macros/latex/contrib/probsoln
-# catalog-date 2011-08-23 00:10:45 +0200
+# catalog-date 2012-01-14 16:28:43 +0100
 # catalog-license lppl
-# catalog-version 3.01
+# catalog-version 3.02
 Name:		texlive-probsoln
-Version:	3.01
-Release:	2
-Summary:	generate problem sheets and their solution sheets
+Version:	3.02
+Release:	1
+Summary:	Generate problem sheets and their solution sheets
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/probsoln
 License:	LPPL
@@ -63,6 +63,7 @@ of the same document as the problems they cover.
 %doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample5.tex
 %doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample6.tex
 %doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample7.tex
+%doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample8.tex
 #- source
 %doc %{_texmfdistdir}/source/latex/probsoln/probsoln.dtx
 %doc %{_texmfdistdir}/source/latex/probsoln/probsoln.ins
