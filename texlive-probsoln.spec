@@ -77,3 +77,22 @@ of the same document as the problems they cover.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.02-1
++ Revision: 762702
+- Update to latest upstream package
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.01-2
++ Revision: 755068
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.01-1
++ Revision: 719302
+- texlive-probsoln
+- texlive-probsoln
+- texlive-probsoln
+- texlive-probsoln
+- texlive-probsoln
+
