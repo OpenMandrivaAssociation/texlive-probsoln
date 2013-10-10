@@ -1,12 +1,12 @@
-# revision 25106
+# revision 29371
 # category Package
 # catalog-ctan /macros/latex/contrib/probsoln
-# catalog-date 2012-01-14 16:28:43 +0100
+# catalog-date 2012-11-17 10:29:25 +0100
 # catalog-license lppl
 # catalog-version 3.02
 Name:		texlive-probsoln
 Version:	3.02
-Release:	1
+Release:	2
 Summary:	Generate problem sheets and their solution sheets
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/probsoln
@@ -51,6 +51,7 @@ of the same document as the problems they cover.
 %doc %{_texmfdistdir}/doc/latex/probsoln/probsoln-manual.html
 %doc %{_texmfdistdir}/doc/latex/probsoln/probsoln-manual.tex
 %doc %{_texmfdistdir}/doc/latex/probsoln/probsoln.pdf
+%doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample-exclude.tex
 %doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample.pdf
 %doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample.tex
 %doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample2.pdf
@@ -77,22 +78,3 @@ of the same document as the problems they cover.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Jan 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.02-1
-+ Revision: 762702
-- Update to latest upstream package
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.01-2
-+ Revision: 755068
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.01-1
-+ Revision: 719302
-- texlive-probsoln
-- texlive-probsoln
-- texlive-probsoln
-- texlive-probsoln
-- texlive-probsoln
-
