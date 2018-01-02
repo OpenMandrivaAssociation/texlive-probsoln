@@ -1,12 +1,6 @@
-# revision 29371
-# category Package
-# catalog-ctan /macros/latex/contrib/probsoln
-# catalog-date 2012-11-17 10:29:25 +0100
-# catalog-license lppl
-# catalog-version 3.02
 Name:		texlive-probsoln
-Version:	3.02
-Release:	10
+Version:	3.05
+Release:	1
 Summary:	Generate problem sheets and their solution sheets
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/probsoln
@@ -43,31 +37,10 @@ of the same document as the problems they cover.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/probsoln/probsoln.sty
-%doc %{_texmfdistdir}/doc/latex/probsoln/CHANGES
-%doc %{_texmfdistdir}/doc/latex/probsoln/INSTALL
-%doc %{_texmfdistdir}/doc/latex/probsoln/README
-%doc %{_texmfdistdir}/doc/latex/probsoln/probsoln-manual.css
-%doc %{_texmfdistdir}/doc/latex/probsoln/probsoln-manual.html
-%doc %{_texmfdistdir}/doc/latex/probsoln/probsoln-manual.tex
-%doc %{_texmfdistdir}/doc/latex/probsoln/probsoln.pdf
-%doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample-exclude.tex
-%doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample.pdf
-%doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample.tex
-%doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample2.pdf
-%doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample2.tex
-%doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample3.pdf
-%doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample3.tex
-%doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample4.pdf
-%doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample4.tex
-%doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample5.pdf
-%doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample5.tex
-%doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample6.tex
-%doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample7.tex
-%doc %{_texmfdistdir}/doc/latex/probsoln/samples/sample8.tex
+%{_texmfdistdir}/tex/latex/probsoln
+%doc %{_texmfdistdir}/doc/latex/probsoln
 #- source
-%doc %{_texmfdistdir}/source/latex/probsoln/probsoln.dtx
-%doc %{_texmfdistdir}/source/latex/probsoln/probsoln.ins
+%doc %{_texmfdistdir}/source/latex/probsoln
 
 #-----------------------------------------------------------------------
 %prep
