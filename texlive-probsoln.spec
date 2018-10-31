@@ -1,6 +1,6 @@
 Name:		texlive-probsoln
 Version:	3.05
-Release:	1
+Release:	2
 Summary:	Generate problem sheets and their solution sheets
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/probsoln
