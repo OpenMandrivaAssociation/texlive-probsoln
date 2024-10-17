@@ -3,7 +3,7 @@ Version:	44783
 Release:	2
 Summary:	Generate problem sheets and their solution sheets
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/probsoln
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/probsoln
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/probsoln.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/probsoln.doc.r%{version}.tar.xz
